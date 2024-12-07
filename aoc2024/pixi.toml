@@ -1,0 +1,14 @@
+[project]
+name = "aoc2024"
+version = "0.1.0"
+description = "Add a short description here"
+authors = ["Bálint Fodor <balint.fodor@gmail.com>"]
+channels = ["conda-forge"]
+platforms = ["osx-arm64"]
+
+[tasks]
+
+[dependencies]
+python = ">=3.13.0,<4"
+numpy = ">=2.1.3,<3"
+pandas = ">=2.2.3,<3"
